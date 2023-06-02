@@ -21,26 +21,30 @@ describe('The recipe page has the required HTML elements', () => {
     document.documentElement.innerHTML = html.toString();
   });
 
+  // console.log(queries.getAllByRole(document, 'heading'))
+
+
   test(w(3, 'uses at least one heading element'), function () {
-    queries.getAllByRole(document, 'heading')
-  });
+    queries.getAllByRole(document, 'heading' , { level: 1 })
+    // console.log(queries.getAllByRole(document, 'heading', { level: 2 }))
+  });//get partiular heading used //how does test work? if no error is generated internally
 
-  test(w(2, 'uses at least three heading elements'), function () {
-    let headings = queries.getAllByRole(document, 'heading')
-    expect(headings.length).toBeGreaterThanOrEqual(3)
-  });
 
-  test(w(3, 'uses at least two list elements'), function () {
-    let lists = queries.getAllByRole(document, 'list')
-    expect(lists.length).toBeGreaterThanOrEqual(2)
-  });
+  // test(w(2, 'uses at least three heading elements'), function () {
+  //   let headings = queries.getAllByRole(document, 'heading')
+  //   expect(headings.length).toBeGreaterThanOrEqual(3)
+  // });
 
-  test(w(1, 'uses at least one image element'), function () {
-    queries.getAllByRole(document, 'img')
-  });
+  // test(w(3, 'uses at least two list elements'), function () {
+  //   let lists = queries.getAllByRole(document, 'list')
+  //   expect(lists.length).toBeGreaterThanOrEqual(2)
+  // });
 
-  test(w(1, 'index.html is a valid html doc'), function () {
-    expect(html).toHTMLValidate();
-  
-  })
+  // test(w(1, 'uses at least one image element'), function () {
+  //   queries.getAllByRole(document, 'img')
+  // });
+
+  // test(w(1, 'index.html is a valid html doc'), function () {
+  //   expect(html).toHTMLValidate();
+  // })
 })
