@@ -1,0 +1,47 @@
+ERROR REPORT - LEVEL 1, BRONZE
+==============================
+
+Below you will write your debugging report by answering the following questions about the 4 errors you found.
+
+-----------------------------------------------------------------------
+
+ERROR 1
+=======
+
+1. What line did you find the error?
+
+
+
+2.What was the error and how did you fix it?
+
+
+
+ERROR 2
+=======
+
+1. What line did you find the error?
+
+
+
+2.What was the error and how did you fix it?
+
+
+ERROR 3
+=======
+
+1. What line did you find the error?
+
+
+2.What was the error and how did you fix it?
+
+
+
+ERROR 4
+=======
+
+1. What line did you find the error?
+
+
+
+2.What was the error and how did you fix it?
+
