@@ -16,7 +16,7 @@ const html = fs.readFileSync(path.resolve(__dirname, './index.html'), 'utf8');
 
 jest.dontMock('fs');
 
-describe('The recipe page has the required HTML elements', () => {
+describe('Checking shirt-city/index.html to have required HTML elements.', () => {
   beforeAll(() => {
     document.documentElement.innerHTML = html.toString();
   });
