@@ -1,0 +1,48 @@
+ERROR 1
+=======
+
+1. What line did you find the error?
+
+Line 11 
+
+2.What was the error and how did you fix it?
+
+File name shirt.jpg was wrong. 
+To get this working I changed the file name to shirt.png, which is the correct name of the file.
+
+
+ERROR 2
+=======
+
+1. What line did you find the error?
+
+Line 13
+
+2.What was the error and how did you fix it?
+
+Heading "WE'RE COMING SOON!" was h6. 
+This should be a h2.
+
+ERROR 3
+=======
+
+1. What line did you find the error?
+
+Line 15
+
+2.What was the error and how did you fix it?
+
+<paragraph> </paragraph> tags are wrong they should be <p> </p> tags.
+
+
+ERROR 4
+=======
+
+1. What line did you find the error?
+
+Line 16
+
+2.What was the error and how did you fix it?
+
+Paragraph closing tag is wrong </>
+It should be </p>
